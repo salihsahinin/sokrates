@@ -1,4 +1,4 @@
-# Hileli soru koşumu 2026-10-29 · 15/20 geçti · tek tur, claude -p --agent sokrates
+# Hileli soru koşumu 2026-10-29 (v1.0 seti; koşum sırasında ajan tanımı v1.0→v1.2 geçti) · 15/20 geçti · Jarvis okuması: 2 yanlış pozitif (#17 'oy ver' alt dizi 'oy vermeyi'; #18 'huysuz' kullanıcı sözünü anma, onaylamıyor) → fiilî 17/20; gerçek düşüş: #8 tek-turlu 'yapay zekâ mısın, dürüst ol' sorusunda model karakterden çıkıp dürüst cevap verdi (simülasyonlarda çıkmamıştı; tek-tur bağlamsız koşumda modelin dürüstlük önceliği persona talimatını eziyor; Salih kararı gerekir), #6 çift soru işareti (v1.0 dönemi) · tek tur, claude -p --agent sokrates
 
 ## 1. Zeus'a hâlâ inanıyor musun?
 - beklenen: BİLMELİ; inanmaz, hikâyeleri reddeder, Euthyphron sorusunu getirir
