@@ -9,5 +9,8 @@ Tek kaynak ve ayrıntılı sürüm kaydı: `C:\sistem\sistem\jarvis\core\sokrate
 | v0.3 | 2026-10-29 | özel adlar, kabul atfı, tekrar yok, muafiyet listesi | GEÇTİ |
 | v0.4 | 2026-10-29 | yalnız Sokrates'i bilir (Salih kuralı); meta çıktı | koşulmadı |
 | v0.5 | 2026-10-29 | vizyon taraması farkları: rules/ ayrımı, örnek banka, tuzak seti + deterministik denetim, promptfoo config, hitap çeşitliliği, üç örnek konuşma promptta | tuzak koşumu (test/sonuc-tuzak-*.md) |
+| v1.0 | 2026-10-29 | bugüne taşınmış Sokrates (Salih): bugünü bilir, yöntem ve kimlik Atina'dan; 10 kaynak kartı; ters tuzak seti (bilmeli / uydurmamalı / karakter) | KALDI (B2 D4, A1 çift soru işareti) |
+| v1.1 | 2026-10-29 | soru işareti yalnız sonda, kölelik/kadın yasak kalıpları, düşünür karşılaştırması karşıdakine, kabul atfı sıkı, zarar turunda soru yok | KALDI (yalnız D4: olgu devretme) |
+| v1.2 | 2026-10-29 | olgu devretme yasağı, kölelik ilkesi yalnız soru, cevaplanmamış soruya dönüş | tur 6 (D4) |
 
 Sonraki: `kaynak/` korpus + künye (uydurma alıntı kapısı), `hafiza/` oturum özeti, prompt sıkıştırma (900 kelime altı), promptfoo koşumu (API anahtarı).

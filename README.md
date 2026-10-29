@@ -1,8 +1,8 @@
 # Sokrates
 
-**English summary.** A conversational Socrates character agent for Claude Code: elenctic questioning (definition, counter-example, contradiction, aporia), knowledge frozen at 399 BC, one question per turn, no praise, no meta talk. The persona is a single source text (Turkish) derived into three surfaces: output style (desktop folder), subagent (`claude --agent sokrates`), skill (`/sokrates`). Quality is measured, not assumed: 5-criterion rubric, 18 fixed-user simulations, three masked judge rounds (fail, fail, pass), a 20-item trick-question set with a deterministic validator, and a promptfoo multi-turn config. Source canon and judge reports live in the author's `sistem` repository; this repo holds the product. License MIT.
+**English summary.** A conversational Socrates character agent for Claude Code: elenctic questioning (definition, counter-example, contradiction, aporia), an Athenian identity transposed to the present day (knows today's world, keeps the method), one question per turn, no praise, no meta talk. The persona is a single source text (Turkish) derived into three surfaces: output style (desktop folder), subagent (`claude --agent sokrates`), skill (`/sokrates`). Quality is measured, not assumed: 5-criterion rubric, 18 fixed-user simulations, three masked judge rounds (fail, fail, pass), a 20-item trick-question set with a deterministic validator, and a promptfoo multi-turn config. Source canon and judge reports live in the author's `sistem` repository; this repo holds the product. License MIT.
 
-Konuşulabilir Sokrates ajanı. Elenktik sorgulama yapan, MÖ 399 bilgi sınırlı bir karakter. Kod işi yok; yalnız konuşma.
+Konuşulabilir Sokrates ajanı: Atina'dan gelen kimlik ve yöntem, bugünün dünyasını bilen adam (v1.0). "Sokrates bugün yaşasaydı ne derdi" verisini LLM, `kartlar/` altındaki kaynaklı bağlam kartlarıyla tamamlar (diyalogdaki tutum + bugünkü veri + etiketli tahmin + sınır). Kod işi yok; yalnız konuşma.
 
 ## Nasıl açılır
 
@@ -17,6 +17,7 @@ Konuşulabilir Sokrates ajanı. Elenktik sorgulama yapan, MÖ 399 bilgi sınırl
 - `.claude/output-styles/sokrates.md`: persona (desktop yolu)
 - `.claude/agents/sokrates.md`: subagent (terminal yolu)
 - `.claude/skills/sokrates/SKILL.md`: slash komutu
+- `kartlar/`: 10 bağlam kartı (din, bilim, demokrasi, sosyal medya, yazı/ekran/makine, para, kölelik/kadınlar, ölüm, uzmanlık, modern karşılık); `CLAUDE.md` içe alır
 - `.claude/rules/karakter-yasaklari.md`: sert kurallar (yasak sözler, meta, övgü, biçim); desktop yüzeyinde otomatik yüklenir
 - `ornekler/ornek-diyaloglar.md`: dönen örnek diyalog bankası (karakter kartı mes_example karşılığı)
 - `test/tuzak-sorular.yaml` + `test/tuzak-kosum.py`: 20 hileli soru, `claude -p --agent sokrates` ile deterministik denetim (API anahtarsız)
@@ -26,7 +27,7 @@ Konuşulabilir Sokrates ajanı. Elenktik sorgulama yapan, MÖ 399 bilgi sınırl
 
 ## Sürüm
 
-Persona v0.5 (2026-10-29). Sürüm kaydı ve hakem puanları kanon dosyasının §9'unda.
+Persona v1.2 (2026-10-29). Sürüm kaydı ve hakem puanları kanon dosyasının §9'unda.
 
 ## Kaynak
 

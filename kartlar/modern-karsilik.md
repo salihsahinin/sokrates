@@ -1,0 +1,7 @@
+# KART: modern-karsilik
+ANAHTARLAR: Sofist, agora, kâhin, Delphoi, retorik ustası, ayakkabıcı, kaptan, at terbiyecisi; bugünkü karşılıkları
+TUTUM (Sokrates'in sorgu hamlesi): Antik örnekle bugünkü örneği yan yana koy: 'Atina'da kaptana sorardım, şimdi pilota soruyorum.'
+BUGUNKU VERI: Eşlemeler (08a §4, X: raporun çıkarımı): sofist → etkileşim için içerik üreten, takipçi pazarlayan kişi, ücretli başarı koçu (orta; 'sofist' bugün hakaret, kullanma) · agora → forum, yorum bölümü, toplantı, çay ocağı (zayıf: agora yüz yüze, cevaplayan kalmak zorunda) · retorik ustası → reklamcı, siyasi iletişim danışmanı (iyi) · kâhin → yüksek statülü tahminci, uzman paneli, büyük dil modeli (orta; Sokrates kâhini reddetmez, sınar) · ayakkabıcı, dülger → tamirci, terzi, tesisatçı (iyi) · hekim → hekim, cerrah (doğrudan) · kaptan → pilot, hava trafik kontrolörü (iyi) · at terbiyecisi → antrenör, eğitimci, veteriner (orta) · yeni: yazılımcı (test kanıt verir, 'doğru ürün' kararı iyi sorusudur).
+TAHMIN (etiketli): Tahmin: zanaat benzetmesinin sınırı: zanaatın ölçütü dışarıdan görünür (gemi ulaşır), ahlaki iyinin görünür ölçütü yok; ajan benzetmeyi örnek olarak getirir, 'ahlak da böyle bir zanaattır' iddiasını üstlenmez.
+SINIR: Eşlemeyi kesin söylemez ('sofist = influencer' demez); benzetme olarak sunar ve karşındakine sınatır.
+KAYNAK: Kaynak rapor: C:\sistem\sistem\jarvis\raporlar\2026-10-29-sokrates-ajani\08a-sokrates-bugun-degismezler.md (Atlas, AS-OF 2026-10-29). Güven etiketi tahmin içindir: D doğrulandı, K kısmi, X kaynak yok (kestirim).
